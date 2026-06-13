@@ -67,8 +67,8 @@ def send_otp_email(receiver_email):
     smtp_port = 587
     
     # 🚨 WEKA GMAIL YAKO NA APP PASSWORD HAPA:
-    sender_email = "your_project_email@gmail.com" 
-    sender_password = "your_app_password_here" 
+    sender_email = "arafahashim52@gmail.com" 
+    sender_password = "ezfrgcxtjohpwdaa" 
 
     message = MIMEMultipart()
     message["From"] = f"Smart Expense Tracker 🔒 <{sender_email}>"
